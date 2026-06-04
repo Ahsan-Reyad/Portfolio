@@ -910,11 +910,11 @@ footer {
 /* ---- Mobile Portrait (max 480px) ---- */
 @media (max-width: 480px) {
   .logo {
-    height: 55px;
+    height: 64px;
   }
   .logo-text {
     font-size: 16px;
-    margin-left: -0.8rem;
+    margin-left: 1rem;
   }
   .hero-section-heading {
     font-size: 20px;
