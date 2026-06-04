@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: "Be Vietnam Pro", sans-serif;
   scroll-behavior: smooth;
 }
@@ -574,7 +575,7 @@ footer {
 @media (max-width: 1400px) {
   .container {
     width: 100%;
-    padding: 0 4rem;
+    padding: 0 2rem;
   }
   .hero-section {
     width: 100%;
@@ -655,6 +656,7 @@ footer {
   .container {
     width: 100%;
     padding: 0 1.5rem;
+    box-sizing: border-box;
   }
 
   /* Navbar */
@@ -672,8 +674,18 @@ footer {
   /* Hero */
   .hero-section {
     width: 100%;
+    max-width: 100%;
     padding: 1rem 1.5rem 3rem;
+    box-sizing: border-box;
     gap: 2rem;
+  }
+  .hero-sectiion-left {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .hero-pera-section {
+    width: 100%;
+    box-sizing: border-box;
   }
   .hero-section-heading {
     font-size: 28px;
@@ -682,19 +694,23 @@ footer {
     font-size: 32px;
     line-height: 38px;
   }
-  .hero-pera-section {
-    width: 90%;
-  }
 
   /* Skills */
   .skills-container {
+    width: 100%;
     padding: 3rem 1.5rem;
+    box-sizing: border-box;
     margin: 5rem auto;
     flex-direction: column;
   }
   .skill-container-left,
   .skill-container-right {
     width: 100%;
+    box-sizing: border-box;
+  }
+  .skill-subHeading {
+    width: 100%;
+    box-sizing: border-box;
   }
   .skill-fade-text {
     display: none;
@@ -704,9 +720,6 @@ footer {
   }
   .caps {
     font-size: 70px;
-  }
-  .skill-subHeading {
-    width: 100%;
   }
 
   /* Contact */
@@ -741,6 +754,7 @@ footer {
   .container {
     width: 100%;
     padding: 0 1rem;
+    box-sizing: border-box;
   }
 
   /* --- Hamburger Menu --- */
@@ -773,25 +787,23 @@ footer {
   /* --- Hero --- */
   .hero-section {
     width: 100%;
+    max-width: 100%;
     flex-direction: column-reverse;
     padding: 1rem 1rem 2rem;
+    box-sizing: border-box;
     margin: 2rem auto;
     text-align: center;
     gap: 1rem;
   }
   .hero-sectiion-left {
+    width: 100%;
+    box-sizing: border-box;
     align-items: center;
     gap: 1.2rem;
   }
-  .hero-section-heading {
-    font-size: 24px;
-  }
-  .hero-section-sub-heading {
-    font-size: 26px;
-    line-height: 32px;
-  }
   .hero-pera-section {
     width: 100%;
+    box-sizing: border-box;
     font-size: 14px;
     text-align: center;
   }
@@ -838,13 +850,20 @@ footer {
   /* --- Skills --- */
   .skills-container {
     flex-direction: column;
+    width: 100%;
     padding: 2rem 1rem;
+    box-sizing: border-box;
     margin: 3rem auto;
     gap: 2rem;
   }
   .skill-container-left,
   .skill-container-right {
     width: 100%;
+    box-sizing: border-box;
+  }
+  .skill-subHeading {
+    width: 100%;
+    box-sizing: border-box;
   }
   .skill-heading {
     font-size: 32px;
@@ -909,20 +928,12 @@ footer {
 
 /* ---- Mobile Portrait (max 480px) ---- */
 @media (max-width: 480px) {
-    .container {
-    width: 100%;
-    padding: 0 2rem;
-    margin: 0 2rem;
-  }
-  .skills-container{
-    passing:0 2rem;
-  }
   .logo {
-    height: 64px;
+    height: 55px;
   }
   .logo-text {
     font-size: 16px;
-    margin:0 2rem;
+    margin-left: -0.8rem;
   }
   .hero-section-heading {
     font-size: 20px;
