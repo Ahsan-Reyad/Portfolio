@@ -574,7 +574,7 @@ footer {
 @media (max-width: 1400px) {
   .container {
     width: 100%;
-    padding: 0 2rem;
+    padding: 0 4rem;
   }
   .hero-section {
     width: 100%;
