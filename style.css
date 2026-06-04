@@ -909,6 +909,10 @@ footer {
 
 /* ---- Mobile Portrait (max 480px) ---- */
 @media (max-width: 480px) {
+    .container {
+    width: 100%;
+    padding: 0 2rem;
+  }
   .logo {
     height: 64px;
   }
