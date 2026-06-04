@@ -912,6 +912,7 @@ footer {
     .container {
     width: 100%;
     padding: 0 2rem;
+    margin: 0 2rem;
   }
   .logo {
     height: 64px;
